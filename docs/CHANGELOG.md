@@ -15,3 +15,8 @@
 ## Planned next release
 
 A future human-validated release may add reviewed labels, adjudication outcomes, agreement statistics, corrected questions, and an updated audit.
+## 2026-10-08 — Release-readiness clarification
+
+- Clarified that `supervisor_annotation.csv` is an optional third independent annotation/adjudication worksheet and is not used by the current two-rater agreement script.
+- Clarified that no repository-level license should be added until redistribution rights and attribution requirements for underlying source material are reviewed.
+- Reconfirmed template recurrence as a benchmark shortcut risk; future evaluation should report the limitation or use a template-held-out protocol.
