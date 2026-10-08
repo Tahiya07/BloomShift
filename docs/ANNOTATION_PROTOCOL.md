@@ -51,6 +51,12 @@ The question should be answerable as an educational assessment prompt and should
 
 Flag malformed, ambiguous, internally inconsistent, or ungrammatical questions.
 
+## Supervisor worksheet
+
+`supervisor_annotation.csv` is intentionally schema-compatible with the reviewer worksheets. It is an **optional third independent annotation/adjudication worksheet**, not a prefilled set of supervisor judgments. It is not used by the current two-rater Cohen's kappa script.
+
+If the supervisor provides an independent third set of labels, those labels should be treated as an additional rater and analyzed with an appropriate multi-rater statistic or used during adjudication. The file being structurally identical to the blank reviewer worksheets is therefore intentional and is not a transfer error.
+
 ## Revision and adjudication
 
 A reviewer should use `corrected_question` only when a concrete revision is needed. A corrected example must be re-reviewed before inclusion in a human-validated release.
