@@ -14,9 +14,9 @@
     "bloomshift_final_validation_0014",
     "bloomshift_final_test_0014",
     "bloomshift_final_validation_0001",
+    "bloomshift_final_validation_0004",
     "bloomshift_final_validation_0006",
     "bloomshift_final_test_0001",
-    "bloomshift_final_validation_0004",
     "bloomshift_final_validation_0008",
     "bloomshift_final_test_0007",
     "bloomshift_final_validation_0003",
@@ -33,6 +33,7 @@
   "priority_manual_review_cases": 32,
   "files": {
     "supervisor_annotation": "supervisor_annotation.csv",
+    "supervisor_role": "optional_third_independent_annotation_or_adjudication_worksheet; not included in the two-rater agreement script",
     "calibration": "annotation_calibration.csv",
     "reviewer_1": "reviewer_1.csv",
     "reviewer_2": "reviewer_2.csv",
