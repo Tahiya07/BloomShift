@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "BloomShift: A Curated Dataset for Bloom's Taxonomy Question Transformation"
+message: "If you use BloomShift, please cite this repository and the specific release used."
+type: dataset
+authors:
+  - family-names: "Zareen Hiya"
+    given-names: "Tahiya"
+repository-code: "https://github.com/Tahiya07/BloomShift"
+url: "https://github.com/Tahiya07/BloomShift"
+version: "0.1.0"
+date-released: "2026-10-08"
+abstract: "A curated silver candidate dataset of instructor-authored question transformations across Bloom's Taxonomy cognitive levels, with source-group-disjoint train, validation, and test splits and a separate human-annotation protocol."
+keywords:
+  - Bloom's Taxonomy
+  - question transformation
+  - educational assessment
+  - dataset
+  - NLP
+  - natural language processing
