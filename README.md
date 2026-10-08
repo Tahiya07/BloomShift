@@ -52,6 +52,8 @@ The 228 validation/test examples are intended for independent annotation. The re
 
 Reviewers assess Bloom alignment, Bloom level, content preservation, context preservation, meaningful transformation, pedagogical validity, clarity/grammar, and a final decision. A 20-example calibration batch is excluded from reported agreement.
 
+The `supervisor_annotation.csv` file uses the same blank schema as the reviewer worksheets. It is retained as an optional third independent annotation/adjudication worksheet and is not included in the current two-rater agreement calculation.
+
 The recommended human-validated release criteria are:
 
 1. All 228 held-out examples are independently reviewed by at least two annotators.
@@ -65,7 +67,7 @@ The recommended human-validated release criteria are:
 
 The automated audit found two near-duplicate source pairs and recurring target templates across splits. These are documented as review/evaluation risks rather than silently removed. In particular, 34 recurring cross-split templates were associated with only one target Bloom level, so a template-held-out evaluation is preferable when measuring generalization.
 
-The dataset should therefore be described as a curated silver candidate until human validation is completed.
+The current candidate should therefore not be described as template-disjoint or human-validated.
 
 ## Audit
 
@@ -92,8 +94,12 @@ The agreement script refuses to compute statistics while required human labels r
 
 BloomShift is maintained as a standalone dataset repository so that the dataset, annotation protocol, audit trail, and future releases can be cited and versioned independently of the EduGuard application.
 
+## Provenance and licensing
+
+The current dataset records provenance through source/group identifiers and transformation metadata, but it does not include source-license URLs or ownership assertions for the underlying third-party question text. A repository-level license should therefore **not** be added until the redistribution rights, attribution requirements, and any applicable source licenses have been reviewed.
+
+If redistribution rights cannot be established for a source subset, that source material should be removed or replaced before a public dataset release.
+
 ## Status
 
 **v0.1.0 — curated silver candidate; human validation pending.**
-
-Underlying source material may retain the licensing or attribution requirements of its original sources. A repository-level license should be selected only after those rights are reviewed.
