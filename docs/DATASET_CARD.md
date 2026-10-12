@@ -56,3 +56,8 @@ Source questions originate from previously collected educational question materi
 ## Release status
 
 **v0.1.0 — curated silver candidate; human validation pending.**
+
+
+## Unreleased action-verb revision
+
+The revision reconstructs target rewrites in train, validation, and test so each begins with a target-level action verb, and synchronizes the supervisor annotation worksheet with the revised held-out target text. The resulting corpus remains a silver candidate and requires fresh human review. The unique source-question count and split sizes remain unchanged in this revision because the original 2,330-row source CSV is not present in this standalone repository. Increasing held-out counts safely requires rebuilding source-group-disjoint splits from that original source pool; records must not be duplicated or moved across splits.
