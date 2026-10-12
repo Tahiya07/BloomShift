@@ -1,4 +1,4 @@
-# BloomShift v0.1.0 Dataset Card
+# BloomShift Dataset Card
 
 ## Summary
 
@@ -61,3 +61,8 @@ Source questions originate from previously collected educational question materi
 ## Unreleased action-verb revision
 
 The revision reconstructs target rewrites in train, validation, and test so each begins with a target-level action verb, and synchronizes the supervisor annotation worksheet with the revised held-out target text. The resulting corpus remains a silver candidate and requires fresh human review. The unique source-question count and split sizes remain unchanged in this revision because the original 2,330-row source CSV is not present in this standalone repository. Increasing held-out counts safely requires rebuilding source-group-disjoint splits from that original source pool; records must not be duplicated or moved across splits.
+
+
+## v0.2.0 action-verb revision
+
+v0.2.0 contains 967 records: 691 train, 138 validation, and 138 test. It uses 258 unique source questions, with zero source-group overlap across splits. The validation and test partitions use the larger held-out partitions from the separately audited BloomShift v4 source groups; training records from the earlier candidate were retained only if their group IDs were absent from both held-out partitions. Of 553 WH-starting rewrites in the selected records, all were changed to target-level action-verb openings; existing action-led rewrites were preserved. The supervisor worksheet has 276 blank held-out annotation rows. This remains synthetic silver data, not human-validated gold data.
