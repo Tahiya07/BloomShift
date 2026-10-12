@@ -17,7 +17,7 @@ BloomShift is a dataset-focused repository for Bloom's Taxonomy question transfo
 
 - Train / validation / test: **691 / 138 / 138** (967 records total).
 - 258 unique source questions; source groups remain disjoint across all three splits.
-- 553 WH-starting rewrites were revised to begin with a target-level action verb; existing action-led rewrites were retained.
+- 610 rewrites were revised (including WH-starting and target-level-mismatched openings) to begin with a target-level action verb; existing action-led rewrites were retained.
 - The supervisor annotation worksheet includes all 276 validation/test examples with blank reviewer fields.
 - v0.1.0 is preserved unchanged. v0.2.0 remains a silver candidate and requires fresh human review; verb-led phrasing alone does not establish semantic preservation or Bloom validity.
 
