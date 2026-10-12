@@ -2,7 +2,7 @@
 
 BloomShift is a dataset-focused repository for Bloom's Taxonomy question transformation research. It contains a curated **silver candidate** dataset for transforming instructor-authored questions across Bloom cognitive levels while preserving the original content and context as far as the automated construction process supports.
 
-## v0.1.0 — Curated silver candidate
+## v0.1.0 — Curated silver candidate (original release)
 
 - 888 transformation records
 - 238 unique source questions
@@ -12,6 +12,8 @@ BloomShift is a dataset-focused repository for Bloom's Taxonomy question transfo
 - Source groups are disjoint across train, validation, and test
 - 28 of 30 possible non-identity source-to-target transitions are represented
 - 228 validation/test records are reserved for independent human review
+
+The action-verb revision is being prepared separately from v0.1.0 so the original release remains reproducible.
 
 This release is **not a human-certified gold dataset**. Human validation and agreement analysis are intentionally kept separate from the candidate data.
 
