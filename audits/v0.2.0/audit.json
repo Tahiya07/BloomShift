@@ -50,12 +50,12 @@
   },
   "action_verb_revision": {
     "wh_question_starts_remaining": 0,
-    "changed_rows": 553,
-    "note": "WH-starting rewrites were reconstructed to begin with target-level action verbs. Existing action-led rewrites were preserved. The supervisor worksheet covers all held-out validation/test records and has blank annotation fields.",
+    "changed_rows": 575,
+    "note": "WH-starting rewrites and remaining non-verb-led openings were reconstructed to begin with a target-level action verb. Existing action-led rewrites were preserved. The supervisor worksheet is synchronized with all revised held-out targets. Fresh human review is required.",
     "changed_rows_by_split": {
-      "train": 299,
-      "validation": 128,
-      "test": 126
+      "train": 311,
+      "validation": 133,
+      "test": 131
     }
   },
   "human_validation_required": true,
