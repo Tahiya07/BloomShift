@@ -2,7 +2,7 @@
 
 BloomShift is a dataset-focused repository for Bloom's Taxonomy question transformation research. It contains a curated **silver candidate** dataset for transforming instructor-authored questions across Bloom cognitive levels while preserving the original content and context as far as the automated construction process supports.
 
-## v0.1.0 — Curated silver candidate
+## v0.1.0 — Curated silver candidate (original release)
 
 - 888 transformation records
 - 238 unique source questions
@@ -12,6 +12,14 @@ BloomShift is a dataset-focused repository for Bloom's Taxonomy question transfo
 - Source groups are disjoint across train, validation, and test
 - 28 of 30 possible non-identity source-to-target transitions are represented
 - 228 validation/test records are reserved for independent human review
+
+## v0.2.0 — Action-verb rewrites with expanded held-out splits
+
+- Train / validation / test: **691 / 138 / 138** (967 records total).
+- 258 unique source questions; source groups remain disjoint across all three splits.
+- 610 rewrites were revised (including WH-starting and target-level-mismatched openings) to begin with a target-level action verb; existing action-led rewrites were retained.
+- The supervisor annotation worksheet includes all 276 validation/test examples with blank reviewer fields.
+- v0.1.0 is preserved unchanged. v0.2.0 remains a silver candidate and requires fresh human review; verb-led phrasing alone does not establish semantic preservation or Bloom validity.
 
 This release is **not a human-certified gold dataset**. Human validation and agreement analysis are intentionally kept separate from the candidate data.
 
