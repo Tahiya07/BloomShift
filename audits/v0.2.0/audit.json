@@ -50,13 +50,14 @@
   },
   "action_verb_revision": {
     "wh_question_starts_remaining": 0,
-    "changed_rows": 575,
-    "note": "WH-starting rewrites and remaining non-verb-led openings were reconstructed to begin with a target-level action verb. Existing action-led rewrites were preserved. The supervisor worksheet is synchronized with all revised held-out targets. Fresh human review is required.",
+    "changed_rows": 618,
+    "note": "All target rewrites begin with an action verb selected for the target Bloom level; previously WH-led rewrites and mismatched action openings were revised. Existing target-level-aligned action openings were preserved. The supervisor worksheet is synchronized. Fresh human review is required.",
     "changed_rows_by_split": {
-      "train": 311,
+      "train": 355,
       "validation": 133,
-      "test": 131
-    }
+      "test": 133
+    },
+    "level_aligned_openings": true
   },
   "human_validation_required": true,
   "notes": [
